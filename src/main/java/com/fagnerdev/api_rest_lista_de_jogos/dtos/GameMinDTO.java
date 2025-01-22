@@ -1,6 +1,7 @@
 package com.fagnerdev.api_rest_lista_de_jogos.dtos;
 
 import com.fagnerdev.api_rest_lista_de_jogos.entities.Game;
+import com.fagnerdev.api_rest_lista_de_jogos.projections.GameMinProjection;
 
 public class GameMinDTO {
 

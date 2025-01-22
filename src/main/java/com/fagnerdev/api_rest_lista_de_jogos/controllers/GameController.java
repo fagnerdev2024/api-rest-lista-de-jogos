@@ -1,5 +1,6 @@
 package com.fagnerdev.api_rest_lista_de_jogos.controllers;
 
+import com.fagnerdev.api_rest_lista_de_jogos.dtos.GameDTO;
 import com.fagnerdev.api_rest_lista_de_jogos.dtos.GameMinDTO;
 import com.fagnerdev.api_rest_lista_de_jogos.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;

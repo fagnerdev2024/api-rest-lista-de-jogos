@@ -1,7 +1,9 @@
 package com.fagnerdev.api_rest_lista_de_jogos.services;
 
+import com.fagnerdev.api_rest_lista_de_jogos.dtos.GameDTO;
 import com.fagnerdev.api_rest_lista_de_jogos.dtos.GameMinDTO;
 import com.fagnerdev.api_rest_lista_de_jogos.entities.Game;
+import com.fagnerdev.api_rest_lista_de_jogos.projections.GameMinProjection;
 import com.fagnerdev.api_rest_lista_de_jogos.repositories.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
